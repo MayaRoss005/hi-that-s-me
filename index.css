@@ -1,0 +1,106 @@
+/* style.css */
+
+
+body{
+    background-color: rgb(248, 220, 217);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0%;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 50px;
+
+
+}
+
+
+img{
+    height: 250px;
+    width: 250px;
+    box-shadow: 0 15px 15px hsl(350, 53%, 51%) ;
+    border-radius: 5%;
+}
+
+
+.margaret{
+    width: 120px; ;
+    height:160px ;
+}
+
+
+
+DIV{
+    justify-content: center;
+    background-color: rgba(255, 235, 205, 0.349);
+    font-family:'Times New Roman', Times, serif;
+    /*padding: 15px;*/
+    text-align: center;
+}
+
+
+ table{ 
+    background-color:hsl(350, 100%, 79%);
+    justify-items: center;
+    border-radius: 5%;
+    margin-left: 400px;
+    margin-right: 400px;
+    border-color:hsl(350, 100%, 79%);
+}
+
+
+
+.intro{
+    background-color: rgba(78, 9, 9, 0.384);
+}
+
+
+.PA{
+    background-color: rgba(78, 9, 9, 0.384);
+}
+
+
+
+/*enlaces*/
+.redes{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    padding-bottom:10px ;
+    border-radius: 50px;
+    background-color: rgba(255, 148, 171, 0.521);
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-top: 10px;
+    margin-right: 250px;
+    margin-left: 250px;
+    align-items: center;
+    
+    
+    
+}
+.redes:hover{
+    transform: scale(1.01);
+}
+
+
+
+button{
+    background-color: rgb(255, 174, 174);
+    width: 400px;
+    height: 50px;
+    border-radius: 15px;
+}
+
+
+
+@media (max-width:400px){
+    body{background-color: rgb(228, 200, 255);}
+}
+
+.ofelia{
+    width: 160px; ;
+    height:190px ;
+
+
+}
